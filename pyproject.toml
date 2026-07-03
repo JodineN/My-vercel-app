@@ -1,2 +1,2 @@
 [tool.vercel]
-entrypoint = "CTU_website-deployment.webapp.app:app"
+entrypoint = "webapp.app:app"
