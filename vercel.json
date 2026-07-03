@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "CTU_website-deployment/webapp/app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "CTU_website-deployment/webapp/app.py"
+    }
+  ]
+}
